@@ -1,0 +1,35 @@
+"""
+Nadavs Python Project
+
+Data analysis
+
+childcare centres or planning permit info
+change report
+
+tools to use:
+requests library
+create a library within a folder
+import difflib
+
+
+phase 1 (childcare):
+- parse the 2 most recent files in a particular folder (files have identical structure)
+	determine where data starts
+- compare the files to identify differences
+- summarise the differences by providing an output of the rows that do not completely match
+- provide a reason for how each record differs between the files
+
+phase 2:
+- structure resulting changes into a form that can be integrated directly into master files
+
+phase 3:
+- extend to include other uses (woolies, coles, planning permits)
+
+
+other ideas to consider:
+- include a user input form
+- geocode the resulting difference using Google API
+- automate this process periodically
+
+
+"""
